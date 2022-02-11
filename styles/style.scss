@@ -1,0 +1,84 @@
+@import "./vars.scss";
+@for $i from 1 through 100 {
+    .h-vh-#{$i}{
+        height: $i * 1vh;
+    }
+    .w-sm-#{$i}{
+        width: $i * 1%;
+    }
+}
+body{
+    background-color: #e9e7e8 !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro',sans-serif !important;
+    color: #575962 !important;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+}
+.sp{
+    padding: 0px;
+}
+.sm{
+    margin: 0px;
+}
+.logo{
+    width: 80%;
+    margin: auto;
+}
+.l>div {
+    width: 96%;
+}
+.log-banner>span{
+    height: 100% !important;
+}
+.navbar{
+    box-shadow: 0px 1px 15px 1px rgb(81 77 92 / 50%);
+    background: #efefef;
+}
+.list-nav{
+    list-style: none;
+    a{
+        color: rgba(0, 0, 0, 0.55);
+    }
+}
+.selects>div {
+    padding: 10px;
+}
+.btn-primary-endeavor{
+    background-color: $Gris !important;
+    color: $White !important;
+}
+.btn-primary-endeavor:hover{
+    background-color: $Dark !important;
+    color: $White !important;
+}
+.css-15wwp11-MuiTableHead-root th{
+    background-color: $Amarillo;
+    color: #000;
+    padding: 10px;
+}
+th{
+    padding: 10px !important;
+}
+.MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows{
+    margin: 0px;
+}
+pre{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: $Rojo !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+    background-color: $RojoL;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: $Rojo;
+}
+// .MuiInputLabel-formControl{
+//     transform: translate(13px, 11px) scale(1) ;
+// }
